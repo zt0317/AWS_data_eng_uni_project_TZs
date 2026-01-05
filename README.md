@@ -1,4 +1,4 @@
-# LSDA_final_project_TZs
+# LSDA_final_project_TZs - Török Zsófia JLK2IE Final Project
 
 ! Photos needed for the markdown files !
 
