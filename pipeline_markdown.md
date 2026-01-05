@@ -238,9 +238,7 @@ It points to the folder where the Air quality csv can be found
 
 They appeared as tables in the database:
 
-<p align="center">
-<img src="Képernyőfotó 2026-01-04 - 11.45.42.png" alt="S3 Folders" width="700">
-</p>
+<img width="1063" height="182" alt="Képernyőfotó 2026-01-04 - 11 45 42" src="https://github.com/user-attachments/assets/886669c4-d357-4f3e-9dd5-add87d0fb9f4" />
 
 
 ### 6. Athena - Querying data
