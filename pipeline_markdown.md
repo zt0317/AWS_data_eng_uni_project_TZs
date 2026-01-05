@@ -3,7 +3,7 @@
 ### From the original idea, I modified the data pipeline, I added cloud9 aswell
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 19.15.37.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 19.15.37.png" alt="S3 Folders" width="500">
 </p>
 
 
