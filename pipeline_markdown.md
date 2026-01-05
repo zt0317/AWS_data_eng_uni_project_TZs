@@ -242,6 +242,7 @@ They appeared as tables in the database:
 <img src="Képernyőfotó 2026-01-04 - 11.45.42.png" alt="S3 Folders" width="700">
 </p>
 
+
 ### 6. Athena - Querying data
 
 **Joined View Creation**
