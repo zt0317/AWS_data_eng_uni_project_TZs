@@ -75,12 +75,12 @@ Use Case & Value:
 ## 3. Costs
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-05 - 1.36.09.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-05 - 1.36.09.png" alt="S3 Folders" width="700">
 </p>
 
 **The previous cost calculation provisioned 3.30$ monthly**
 **However, in the cost calculation I calculated as I would perform the queries occasionally**
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-05 - 1.39.38.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-05 - 1.39.38.png" alt="S3 Folders" width="700">
 </p>
