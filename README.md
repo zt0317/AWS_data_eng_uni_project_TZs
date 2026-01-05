@@ -1,5 +1,7 @@
 # LSDA_final_project_TZs
 
+! Photos needed for the markdown files !
+
 Three markdown files are available:
 
 - preparation_markdown: Markdown file about the dataset informations
