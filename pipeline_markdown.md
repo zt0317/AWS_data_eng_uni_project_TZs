@@ -12,19 +12,19 @@
 **Create S3 bucket for the used data sources:**
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.03.30.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 18.03.30.png" alt="S3 Folders" width="500">
 </p>
 
 - Uploaded the air quality csv
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.08.10.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 18.08.10.png" alt="S3 Folders" width="500">
 </p>
 
 - Created a query results bucket for later Athena queries
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.10.07.png" alt="S3 Folders" width="300">
+<img src="Képernyőfotó 2026-01-04 - 18.10.07.png" alt="S3 Folders" width="300">
 </p>
 
 ### 2. Lambda function:
@@ -102,27 +102,27 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
         }
 
 <p align="center">
-<img src="photos/Képernyőfotó 2025-12-29 - 23.12.23.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2025-12-29 - 23.12.23.png" alt="S3 Folders" width="500">
 </p>
 
 <p align="center">
-<img src="photos/Képernyőfotó 2025-12-29 - 23.13.19.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2025-12-29 - 23.13.19.png" alt="S3 Folders" width="500">
 </p>
 
 - Created a test event to see whether it was successful
 
 <p align="center">
-<img src="photos/Képernyőfotó 2025-12-29 - 23.16.07.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2025-12-29 - 23.16.07.png" alt="S3 Folders" width="500">
 </p>
 
 <p align="center">
-<img src="photos/Képernyőfotó 2025-12-29 - 23.17.51.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2025-12-29 - 23.17.51.png" alt="S3 Folders" width="500">
 </p>
 
 - It worked - here is the csv in the right bucket-folder
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.18.03.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 18.18.03.png" alt="S3 Folders" width="500">
 </p>
 
 ### 3. Cloud9 IDE for csv handling
@@ -130,11 +130,11 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
 **Created a Cloud9 environment for the handling of the csv columns (inspired by the capstone project)**
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 12.44.11.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 12.44.11.png" alt="S3 Folders" width="700">
 </p>
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 12.44.45.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 12.44.45.png" alt="S3 Folders" width="700">
 </p>
 
     import pandas as pd
@@ -153,7 +153,7 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
 **Then I updated the original csv**
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 12.55.03.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 12.55.03.png" alt="S3 Folders" width="700">
 </p>
 
 ### 4. Create database for the tables:
@@ -161,7 +161,7 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
 **I created a database where I can store the tables from the datasets**
 
 <p align="center">
-<img src="photos/Képernyőfotó 2025-12-29 - 23.19.25.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2025-12-29 - 23.19.25.png" alt="S3 Folders" width="500">
 </p>
 
 ### 5. Athena - Table creation
@@ -195,7 +195,7 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
 It points to the folder where the Air quality csv can be found
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.45.30.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 18.45.30.png" alt="S3 Folders" width="700">
 </p>
 
 **Flu Surveillance**
@@ -233,7 +233,7 @@ It points to the folder where the Air quality csv can be found
     );
 
 <p align="center">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.47.31.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 18.47.31.png" alt="S3 Folders" width="700">
 </p>
 
 ### 6. Athena - Querying data
@@ -252,7 +252,7 @@ It points to the folder where the Air quality csv can be found
 Created a joined view between the two tables on the same columns. This made later queries so much easier, there is no need to join the tables together each time
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 13.49.51.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 13.49.51.png" alt="S3 Folders" width="500">
 </p>
 
 **Yearly aggregation**
@@ -269,7 +269,7 @@ Created a joined view between the two tables on the same columns. This made late
     ORDER BY year;
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 18.55.33.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 18.55.33.png" alt="S3 Folders" width="700">
 </p>
 
 <span style="color:red; font-weight:bold;">
@@ -306,7 +306,7 @@ This query extracts the year from the year_week variable and calculates the year
     ORDER BY corr_aqi_age_gte75 DESC;
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 14.24.55.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 14.24.55.png" alt="S3 Folders" width="500">
 </p>
 
 <span style="color:red; font-weight:bold;">This query calculates the correlation between the Air Quality Index and flu rates for three age groups, grouped by state, to see how air quality relates to influenza outbreaks. Overall, the correlations are weak, with most states showing values near zero, indicating little general relationship between AQI and flu rates (but the data is synthetic). Some state-specific differences appear: North Carolina shows the highest positive correlation for the elderly (0.267), while Iowa shows a slight negative correlation (-0.106). Positive correlations tend to be stronger in older adults than in children, as seen in Michigan and Oregon. Even though overall correlations are low, this analysis is useful for spotting anomalies. Sudden spikes in correlation can highlight states or periods where air pollution may significantly affect respiratory health or where other factors, like extreme weather play a role.
@@ -329,7 +329,7 @@ Highest measure was about ~100 and the lowest ~25, so I figured the outliers are
     ORDER BY aqi DESC;
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 14.22.13.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 14.22.13.png" alt="S3 Folders" width="500">
 </p>
 
 <span style="color:red; font-weight:bold;">This query filters the dataset for "outlier" weeks where the AQI was 85 or higher to see if extreme pollution events triggered immediate flu spikes. Interestingly, many of the highest AQI weeks (in MN or CT) show very low flu rates (0.0 to 0.6), suggesting that isolated spikes in air pollution do not immediately result in a surge of flu cases. (Synthetic data!)</span>
@@ -359,7 +359,7 @@ Highest measure was about ~100 and the lowest ~25, so I figured the outliers are
     ORDER BY state_abbr, season;
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 20.28.38.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 20.28.38.png" alt="S3 Folders" width="500">
 </p>
 
 <span style="color:red; font-weight:bold;">The code categorizes the data into two groups “Winter,” which includes weeks 48 to 52 and 1 to 8, and “Non-Winter,” which includes all other weeks. This allows for a comparison of environmental factors with health outcomes across different seasons. The results show that the Air Quality Index (AQI) remains fairly consistent between Winter and Non-Winter periods. However, flu rates for both children and the elderly are much higher during the Winter months. This indicates that the timing of the season has a much stronger effect on flu rates than air quality does.</span>
@@ -376,7 +376,7 @@ Highest measure was about ~100 and the lowest ~25, so I figured the outliers are
     ORDER BY state_abbr, AQI_Category;
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 14.28.18.png" alt="S3 Folders" width="500">
+<img src="Képernyőfotó 2026-01-04 - 14.28.18.png" alt="S3 Folders" width="500">
 </p>
 
 <span style="color:red; font-weight:bold;">The SQL query analyzes the relationship between air quality categories (AQI levels) and average flu rates for children and the elderly across different states, two vulnerable categories. The results show that the elderly population consistently has much higher flu rates than children, regardless of air quality. The data does not show a consistent increase in flu rates as air quality worsens. These results also help identify unusual patterns. For instance, Iowa recorded a 0.0 flu rate for both children and the elderly during “Moderate” air quality weeks, which is a clear outlier compared to other states, that could be due to technical reasons.</span>
@@ -423,11 +423,11 @@ Highest measure was about ~100 and the lowest ~25, so I figured the outliers are
     print("Plots saved as PNG files in your Cloud9 workspace.")
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 14.42.56.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 14.42.56.png" alt="S3 Folders" width="700">
 </p>
 
 <p align="left">
-<img src="photos/Képernyőfotó 2026-01-04 - 14.43.01.png" alt="S3 Folders" width="700">
+<img src="Képernyőfotó 2026-01-04 - 14.43.01.png" alt="S3 Folders" width="700">
 </p>
 
 <span style="color:red; font-weight:bold;">The scatter plot shows the relationship between pm_2.5 and flu rates in children. The points are widely scattered with no clear trend, confirming a weak linear correlation. Most pm_2.5 values fall between 11 and 13. Although some flu rates reach 6 to 8 in this range, many low flu rates (1 to 2) also occur at the same pollution levels, indicating that other factors, such as season or temperature, likely have a stronger influence.
