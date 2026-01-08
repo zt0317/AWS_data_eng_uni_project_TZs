@@ -245,14 +245,30 @@ They appeared as tables in the database:
 
 **Joined View Creation**
 
+    CREATE OR REPLACE VIEW air_flu_joined AS
     SELECT
-        state_abbr,
-        year_week,
-        aqi,
-        AQI_Category,
-        LAG(aqi, 1) OVER (PARTITION BY state_abbr ORDER BY year_week) AS aqi_lag_1w,
-        rate_age_gte18
-    FROM air_flu_joined;
+        a.state_abbr,
+        a.year_week,
+        a.pm25,
+        a.aqi,
+        a.AQI_Category,
+        a.temperature_c,
+        f.rate_age_0,
+        f.rate_age_1,
+        f.rate_age_2,
+        f.rate_age_3,
+        f.rate_age_4,
+        f.rate_age_5,
+        f.rate_age_6,
+        f.rate_age_7,
+        rate_age_lt18,
+        rate_age_gte18,
+        rate_age_gte75
+        
+    FROM air_quality_csv AS a
+    INNER JOIN flu_surveillance_2020_2025_csv AS f
+        ON a.state_abbr = f.state_abbr
+       AND a.year_week = f.year_week;
 
 Created a joined view between the two tables on the same columns. This made later queries so much easier, there is no need to join the tables together each time
 
