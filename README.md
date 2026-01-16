@@ -1,6 +1,13 @@
 # LSDA_final_project_TZs - Török Zsófia JLK2IE Final Project
 
-AWS SERVICES DATA PIPELINE FOR UNIVERSITY PROJECT
+AWS SERVICES DATA PIPELINE FOR UNIVERSITY PROJECT:
+
+main services used:
+- S3
+- Lambda
+- Glue
+- Athena
+- Cloud9
 
 Three markdown files are available:
 
