@@ -43,7 +43,7 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
     BUCKET = "air-flu-bucket"
     KEY = "flu_surveillance/flu_surveillance_2020_2025.csv"
 
-    API_KEY = "289703e85720a"
+    API_KEY = ...
 
     states = [
         'NY','MD','GA','ME','TX','LA','ND','ID','MA','NV','WV','WY','SC','OH',
