@@ -1,5 +1,7 @@
 # LSDA_final_project_TZs - Török Zsófia JLK2IE Final Project
 
+AWS SERVICES DATA PIPELINE FOR UNIVERSITY PROJECT
+
 Three markdown files are available:
 
 - preparation_markdown: Markdown file about the dataset informations
