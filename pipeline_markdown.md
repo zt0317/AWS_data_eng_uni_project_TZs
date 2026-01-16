@@ -105,9 +105,6 @@ Put it into a csv format, query it from 2020-2025 - these years crucial in case 
 <img src="Képernyőfotó 2025-12-29 - 23.12.23.png" alt="S3 Folders" width="500">
 </p>
 
-<p align="center">
-<img src="Képernyőfotó 2025-12-29 - 23.13.19.png" alt="S3 Folders" width="500">
-</p>
 
 - Created a test event to see whether it was successful
 
