@@ -1,4 +1,4 @@
-# LSDA_final_project_TZs - Török Zsófia JLK2IE Final Project
+# Large Scale Data Architectures - Török Zsófia Final Project
 
 AWS SERVICES DATA ENGINEERING PIPELINE FOR UNIVERSITY PROJECT:
 
